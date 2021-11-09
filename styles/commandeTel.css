@@ -4,15 +4,6 @@ body {
     width: 400px;
 }
 
-main {
-
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -43,8 +34,6 @@ nav h1 {
     margin-top: 50px;
 }
 
-
-
 .apparait {
     position: fixed;
     transform: translateX(0%);
@@ -58,55 +47,4 @@ nav h1 {
     background-color: black;
     opacity: 0.9;
     z-index: 1;
-}
-
-.elements {
-    display: flex;
-}
-
-.element {
-    flex: 1 0 100%;
-}
-
-.diapo {
-    position: relative;
-    overflow: hidden;
-}
-
-#nav-gauche, #nav-droite{
-    position: absolute;
-    top: 250px;
-    cursor: pointer;
-}
-
-#nav-droite {
-    right: 0;
-}
-
-.explication {
-    font-size: 1em;
-    text-align: center;
-    margin-top: 100px;
-}
-
-nav svg:hover{
-    transform: scale(1.1);
-}
-
-.burger:hover{
-    transform: rotate(90deg);
-    transition: 0.4s;
-}
-
-a:link {
-    text-decoration: none;
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
 }
