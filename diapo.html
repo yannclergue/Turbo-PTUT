@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tel.css">
-    <link rel="stylesheet" media="screen and (min-width: 429px) " href="ordi.css">
+    <link rel="stylesheet" href="styles/diapoTel.css">
+    <link rel="stylesheet" media="screen and (min-width: 429px) " href="styles/diapoOrdi.css">
     <title>Diapo</title>
 </head>
 
@@ -25,7 +25,7 @@
         </div>
     </header>
     <nav>
-        <h1>menu</h1>
+        <a href="index.html"><h1>menu</h1></a>
         <p>Article de presse</p>
         <p>Commander</p>
         <p>Qui sommes nous ?</p>
@@ -42,19 +42,19 @@
         <div class="diapo">
             <div class="elements">
                 <div class="element">
-                    <img src="1.jpg" alt="image2" width="620px" height="349px">
+                    <img src="img/1.jpg" alt="image2" width="620px" height="349px">
                 </div>
                 <div class="element">
-                    <img src="2.jpg" alt="image2" width="1600px" height="1200px">
+                    <img src="img/2.jpg" alt="image2" width="1600px" height="1200px">
                 </div>
                 <div class="element">
-                    <img src="3.jpg" alt="image3" width="1920px" height="1080px">
+                    <img src="img/3.jpg" alt="image3" width="1920px" height="1080px">
                 </div>
                 <div class="element">
-                    <img src="4.jpg" alt="image4" width="1920px" height="1080px">
+                    <img src="img/4.jpg" alt="image4" width="1920px" height="1080px">
                 </div>
                 <div class="element">
-                    <img src="5.jpg" alt="image5" width="1080px" height="680px">
+                    <img src="img/5.jpg" alt="image5" width="1080px" height="680px">
                 </div>
             </div>
         </div>
@@ -66,9 +66,14 @@
                 fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h13M12 5l7 7-7 7" />
             </svg></i>
+
+            <p class="explication">
+                Cliquez sur l'un des articles 
+                pour faire apparaitre son contenu
+            </p>
     </main>
 
-    <script src="js.js"></script>
+    <script src="js/diapo.js"></script>
 </body>
 
 </html>
